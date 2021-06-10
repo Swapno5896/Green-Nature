@@ -1,5 +1,5 @@
 import React from "react";
-import navImage from "../../images/logo-story-volkswagen.jpg";
+import navLogo from "../../images/logo.png";
 const Headser = () => {
   return (
     <div>
@@ -7,12 +7,12 @@ const Headser = () => {
         <a href="#" class="block">
           <img
             class="h-8"
-            src={navImage}
+            src={navLogo}
             alt="Themes.dev Logo"
             title="Themes.dev Logo"
           />
           <a href="#" class="text-indigo-600 hover:underline">
-            Plumbio
+            Green Nature
           </a>
         </a>
         <nav class="flex flex-row space-x-6 font-semibold">
